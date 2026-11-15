@@ -9,7 +9,7 @@ Setup:
    - **Windows Powershell:**  
      `python.exe -m pip install --upgrade pip ; pip install -r requirements.txt`  
    - **Linux:**  
-     `source .venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt`  
+     `python -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt`  
 
 2. **Initiate token.txt:**
    - **Windows Powershell:**  
