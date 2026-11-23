@@ -4,7 +4,9 @@ import time
 import random
 import os
 
-TOKEN = 'Nzc5MDAyNDA4MTAxNDc4NDAw.Gi8Vzx.5XCLixJB4dP3B-ZynLhfOChvfI-dCP8SokDM2c'
+import token_helper
+
+TOKEN = token_helper.get_token()
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -106,4 +108,3 @@ class MyClient(discord.Client):
 
 client = MyClient(intents=discord.Intents.default())
 client.run(TOKEN)
-# client.run('Nzc5MDAyNDA4MTAxNDc4NDAw.X7aMhw.j2yMiAsmOzuCnmr-ss9GCFNqyfw')
