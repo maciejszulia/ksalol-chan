@@ -22,3 +22,7 @@ Setup:
      `python.exe .\ksalol-chan-dev.py`  
    - **Linux:**  
      `python ./ksalol-chan-dev.py`
+
+## Documentation
+
+- [Architecture (arc42, diagrams, decision records)](docs/architecture/README.md)
